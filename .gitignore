@@ -1,0 +1,11 @@
+build/
+dist/
+wheels/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+__pycache__/
+
+*.swp
