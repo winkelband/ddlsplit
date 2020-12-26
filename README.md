@@ -78,7 +78,7 @@ Dependent Objects:
 	Type	|	Name
 	Schema	|	my_test_schema
 ChangeLog:
-	Date	|Author	|	Ticket	|	Modification
+	Date	|	Author	|	Ticket	|	Modification
 	2020-12-26	|	Developer_2	|	T-247	|	Initial Definition
 
 ```
@@ -86,7 +86,7 @@ ChangeLog:
 Results in:
 
 ```SQL
-COMMENT ON TABLE public.find IS E'Purpose:\nThis a new table to show how auto documentation can add new objects quickly.\nDependent Objects:\n\tType\t|\tName\n\tSchema\t|\tmy_test_schema\nChangeLog:\n\tDate\t|Author\t|\tTicket\t|\tModification\n\t2020-12-26\t|\tDeveloper_2\t|\tT-247\t|\tInitial Definition';
+COMMENT ON TABLE public.find IS E'Purpose:\nThis a new table to show how auto documentation can add new objects quickly.\nDependent Objects:\n\tType\t|\tName\n\tSchema\t|\tmy_test_schema\nChangeLog:\n\tDate\t|\tAuthor\t|\tTicket\t|\tModification\n\t2020-12-26\t|\tDeveloper_2\t|\tT-247\t|\tInitial Definition';
 ```
 
 ## Developing
