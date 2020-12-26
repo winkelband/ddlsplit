@@ -7,7 +7,7 @@ which can be utilized by [sphinx-sql](https://github.com/winkelband/sphinx-sql) 
 
 ## Installation
 
-`pip install https://github.com/winkelband/ddlsplit/releases/latest/download/ddlsplit.tar.gz`
+`pip install ddlsplit`
 
 ## Usage
 
